@@ -55,7 +55,7 @@ function Navbar() {
           <li onClick={handlelogout}>
             <Link to="#">Logout</Link>
           </li>
-        ) : <Link>Login</Link>}
+        ) : <Link to="/login">Login</Link>}
       </ul>
     </nav>
   );
